@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 // CONNECT DATABASE
 mongoose
   .connect(
-    "mongodb+srv://tscript:mira247a@tomzor.axomd8j.mongodb.net/clbackend"
+    "mongodb+srv://tscript:@tomzor.axomd8j.mongodb.net/clbackend"
   )
   .then(() => {
     console.log("database Connected");
